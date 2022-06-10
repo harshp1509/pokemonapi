@@ -1,0 +1,60 @@
+.App{
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  flex-direction: column;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(66, 66, 251);
+  width: 100%;
+  height: 200px;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title input{
+  width:300px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgb(52, 57, 205);
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.title button{
+  width:200px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-top: 20px;
+  background-color: rgb(20, 20, 58);
+  color: white;
+  border: none;
+  font-weight: 500;
+}
+
+.title button:hover{
+  background-color: white;
+  color: blue;
+}
+
+.display{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display img{
+  background-color: aqua;
+}
